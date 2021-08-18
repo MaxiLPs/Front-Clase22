@@ -1,0 +1,48 @@
+@import "variables.scss";
+
+*{
+    font-family: $familyFont;
+}
+
+header{
+    background-color: $bgcolor;
+    img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    h1{
+        text-transform: uppercase;
+        text-align: center;
+        color: $colorPrincipal;
+        // font-family: $familyFont;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 2rem;
+        line-height: 84.69%;
+    }
+}
+
+section{
+    h2{
+        background-color: $bgcolor;
+        color: $colorPrincipal;
+        text-transform: uppercase;
+        // font-family: $familyFont;
+        font-style: normal;
+        font-weight: bold;
+    }
+}
+
+span{
+    font-weight: bold;
+    font-style: italic;
+}
+
+footer{
+    background-color: $colorPrincipal;
+    p{
+        text-align: center;
+        color: white;
+    }
+}
